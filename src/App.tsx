@@ -1,11 +1,11 @@
-import './styles/global.css'; 
+import './styles/global.css'
 
-function App() {
-
+export function App() {
   return (
-    <h1>Hello Sara</h1>
-    
+    <div>
+      <h1 className='font-bold text-2xl text '>Hello Sara</h1>
+      <button className='bg-cyan-500 font-medium px-4 py-2 rounded text-white hover:bg-cyan-300'>
+Entrar na plataforma</button>
+    </div>
   )
 }
-
-export default App
